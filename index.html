@@ -37,14 +37,16 @@
           </div>
           <div class="container-fluid">
             <form>
-                <p>Filter Search</p>
+                <p><b>Filter Search</b></p>
             </form>
             <div class="row">
               <div class="col-md-3">
                 <ul class="list-group">
-                <li>
+                <li class="list-group-item">
                 <label for="date">Enter Date</label>
                 <input type="text" placeholder="1/10/2010" id="datetime" />
+                </li>
+                <li class="list-group-item">
                 <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
                 </li>
                 </ul>
@@ -53,13 +55,14 @@
               <div class="col-md-9">
                 <table class="table table-striped">
                     <thead>
+                      <tr>
                         <th>City</th>
                         <th>State</th>
                         <th>Country</th>
                         <th>Shape</th>
                         <th>Duration</th>
                         <th>Comments</th>
-            
+                      </tr>
                     </thead>
                     <tbody></tbody>
                   </table>
@@ -69,6 +72,9 @@
           </div>
 
     </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script type="text/javascript" src="static/js/data.js"></script>
+    <script type="text/javascript" src="static/js/app.js"></script>    
     
 </body>
 </html>
