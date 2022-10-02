@@ -18,5 +18,7 @@ Similar functionality is provided for searching by city, country or shape.
 The limited scope for enhancement makes a significant user friendly improvement for targeting dataset of interest. However, the user experienced could be further improved by streamling the searches more.
 
 ## Future Scope
-In the latest design, the display could be confusing if multiple changes are successively made. Currently, only the last search criteria is used for search, but the previous filters are not erased from display. This may be confusing as the on screen country, state and city codes may not be congruent and compatible.
+In the latest design, the display could be confusing if multiple changes are successively made. Currently, only the last search criteria is used for search, but the previous filters are not erased from display. This may be confusing as the on screen country, state and city codes may not be congruent and compatible. User experience could be enhanced by:</br>
+* Displaying the unique filter criteria used only and removing past/default values.
+* Providing an option to clear the display screen.
 
