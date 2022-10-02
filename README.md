@@ -4,3 +4,8 @@ First phase of the project produced an user friendly search page with the abilit
 In the next phase the design would be expanded to include search capability on several criteria including, city, state, country and shape of the sighted UFO object.
 
 ## Resources and Tools
+* UFO sighting databased downloaded and hosted locally
+* HTML/CSS, Javascript, Bootstrap methodology.
+
+## Product Features:
+Initial webpage displays UFO sightings by date, city, state, country and shape level granularity.
