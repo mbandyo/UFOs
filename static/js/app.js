@@ -51,11 +51,11 @@ function updateFilters() {
     // to the filters list. Otherwise, clear that filter from the filters object.
     if (inputValue) {
       filters[inputID] = inputValue;
-  } else{filters ={};};
+  } else{delete filters[inputID];};
  
   
     // 6. Call function to apply all filters and rebuild the table
-    filterTable(filters);
+    filterTable();
 };
   
 
@@ -69,9 +69,9 @@ function updateFilters() {
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    Object.entries(obj).forEach(([fkey, fval]) =>{
+    Object.entries(filters).forEach(([key, val]) =>{
         
-      filteredData = filteredData.filter((row) => row[fkey] === fval)
+      filteredData = filteredData.filter((row) => row[key] === val)
           
 
   });
